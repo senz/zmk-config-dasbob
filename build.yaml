@@ -17,3 +17,7 @@ include:
     shield: dasbob_left
   - board: nice_nano_v2
     shield: dasbob_right
+  - board: nice_nano_v2
+    cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
+    shield: dasbob_left
+    artifact-name: dasbob_left_with_logging
